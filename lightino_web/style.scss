@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+body {
+  overflow: hidden;
+}
+
+html {
+  cursor: url(../cursor.png), crosshair;
+}
+
+.title {
+  font-family: 'Arvo', serif;
+  color: white;
+  text-align: center;
+  margin-top: 33vh;
+  transition: transform 0.5s;
+  transform: scale(1);
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
